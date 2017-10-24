@@ -2,6 +2,8 @@
 Decoding JSON data by using generic in Swift
 
 ## 1st solution: Quick and dirty
+[Source](https://github.com/ngominhtrint/generic_json/blob/master/Generic/FirstSolution.playground/Contents.swift)
+
 The first solution is going to be the easiest way to understand. But this solution has several major drawbacks that become evident as we implement the solution.
 
 We create an instance of `WeatherData` using the JSON response. This doesn't look too bad. Right?
@@ -50,6 +52,8 @@ if let JSON = JSON as? [String: AnyObject] {
 We achived the goal we set out to achieve, but the approach we took needs to change. The current implementation is too brittle and overly complex. Let me show you how we can improve this by using protocols and extensions.
 
 ## 2nd solution: Protocols and extensions
+[Source](https://github.com/ngominhtrint/generic_json/blob/master/Generic/SecondSolution.playground/Contents.swift)
+
 We can improve the above solution with protocols and extensions. In the Project Navigator, create a new file in the Sources group, JSONDecodable.swift
 
 ```
@@ -74,4 +78,5 @@ if let weatherData = WeatherData(JSON: JSON) {
 ```
 
 ## 3rd solution
+[Source](https://github.com/ngominhtrint/generic_json/blob/master/Generic/ThirdSolution.playground/Contents.swift)
 
