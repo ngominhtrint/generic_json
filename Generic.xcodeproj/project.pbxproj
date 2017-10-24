@@ -48,7 +48,7 @@
 		EB0349FB1F87262100B3E3B6 /* GenericUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericUITests.swift; sourceTree = "<group>"; };
 		EB0349FD1F87262200B3E3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB034A091F87264200B3E3B6 /* FirstSolution.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FirstSolution.playground; sourceTree = "<group>"; };
-		EB034A121F8728C900B3E3B6 /* SecondSolution.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondSolution.playground; sourceTree = "<group>"; };
+		EB034A121F8728C900B3E3B6 /* SecondSolution.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondSolution.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EB034A131F8729A400B3E3B6 /* ThirdSolution.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThirdSolution.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
